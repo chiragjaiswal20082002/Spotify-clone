@@ -1,8 +1,5 @@
-
-import Image from "next/image";
 import Header from "../../components/Header";
 import ListItem from"../../components/ListItem";
-import { get } from "http";
 import getSongs from "@/actions/getSongs";
 import PageContent from "./components/PageContent";
 

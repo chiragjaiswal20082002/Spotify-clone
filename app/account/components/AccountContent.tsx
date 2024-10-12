@@ -15,10 +15,12 @@ const AccountContent=()=>
         if(!isLoading && !user)
         {
             router.replace('/');
+            setLoading(false);
         }
+        setLoading(true);
     },[isLoading,user,router]);
 
-//    setLoading(false);
+   
     return(
         <div className="flex flex-col gap-y-4">
             <p> You are currently on theSubscription mode.</p> 

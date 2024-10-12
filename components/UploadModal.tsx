@@ -108,8 +108,7 @@ const UploadModal=()=>
       reset();
       uploadModal.onClose();
       }
-      
-      
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       catch(error){
         toast.error("something went wrong");
       }
